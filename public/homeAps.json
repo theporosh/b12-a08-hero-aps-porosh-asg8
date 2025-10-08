@@ -1,0 +1,146 @@
+[
+   {
+    "image": "https://i.ibb.co.com/hR0zt4P6/tm.webp",
+    "title": "TaskMaster:managing tasks",
+    "companyName": "Productive Inc.",
+    "id": 1,
+    "description": "TaskMaster is your ultimate digital assistant for managing tasks and boosting daily productivity. Designed with simplicity and power in mind, it helps users create to-do lists, set priorities, assign deadlines, and track progress effortlessly. Whether you're a professional juggling multiple projects or a student organizing study plans, TaskMaster adapts to your workflow with calendar integrations, reminders, and smart categorization.",
+    "size": 45,
+    "reviews": 15234,
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 345 },
+      { "name": "2 star", "count": 621 },
+      { "name": "3 star", "count": 1234 },
+      { "name": "4 star", "count": 4567 },
+      { "name": "5 star", "count": 8467 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Lz38gTz9/ftpro.webp",
+    "title": "FitTrack Pro:fitness tracking",
+    "companyName": "HealthCore Ltd.",
+    "id": 2,
+    "description": "FitTrack Pro offers a complete fitness tracking solution tailored to your personal health goals. Create workout routines, monitor your daily activity, log meals, and analyze performance trends over time. With AI-driven recommendations and real-time insights, FitTrack Pro acts as your virtual trainer, helping you stay on track whether you’re aiming for weight loss, muscle gain, or general wellness.",
+    "size": 80,
+    "reviews": 9843,
+    "ratingAvg": 4.2,
+    "downloads": "0.87M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 432 },
+      { "name": "3 star", "count": 1345 },
+      { "name": "4 star", "count": 3421 },
+      { "name": "5 star", "count": 4435 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vv3Px7L3/photogenie.webp",
+    "title": "Photo Genie:Transform photos",
+    "companyName": "SnapSoft",
+    "id": 3,
+    "description": "Transform ordinary photos into stunning masterpieces with Photo Genie — an intuitive, AI-powered editing app built for beginners and pros alike. Apply filters, remove unwanted objects, enhance lighting, and use auto-correction tools that understand your artistic vision. Whether you're creating content for social media or preserving memories, Photo Genie makes professional photo editing accessible to everyone.",
+    "size": 120,
+    "reviews": 25421,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 198 },
+      { "name": "2 star", "count": 402 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C3VxCDPt/studypal.webp",
+    "title": "StudyPal:smart study",
+    "companyName": "EduSpark",
+    "id": 4,
+    "description": "StudyPal is a smart study companion designed for students and lifelong learners. Organize class notes, schedule study sessions, and create flashcards for better memory retention. The app supports collaborative learning through shared folders and integrates with cloud services to ensure your materials are always accessible. Ideal for exam prep, group studies, or solo learning journeys.",
+    "size": 66,
+    "reviews": 6432,
+    "ratingAvg": 4.3,
+    "downloads": "0.54M",
+    "ratings": [
+      { "name": "1 star", "count": 178 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 960 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2984 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twbct7KT/travalease.webp",
+    "title": "TravelEase:travel planning",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "Simplify your travel planning with TravelEase — your all-in-one trip companion. Discover offbeat destinations, book flights and hotels, create personalized itineraries, and get real-time travel alerts. TravelEase helps travelers of all kinds — backpackers, luxury vacationers, or digital nomads — explore the world with confidence, convenience, and joy.",
+    "size": 150,
+    "reviews": 15300,
+    "ratingAvg": 4.6,
+    "downloads": "1.89M",
+    "ratings": [
+      { "name": "1 star", "count": 301 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 9079 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1kCMDsT/notenest.webp",
+    "title": "NoteNest:cloud powered",
+    "companyName": "CloudDesk",
+    "id": 6,
+    "description": "NoteNest is a cloud-powered note-taking app that keeps your thoughts, ideas, and lists synced across all devices. With a clean and distraction-free interface, it supports voice notes, rich text formatting, and folder organization. From quick memos to detailed journals, NoteNest ensures your notes are always secure, organized, and instantly available when you need them.",
+    "size": 30,
+    "reviews": 8032,
+    "ratingAvg": 4.4,
+    "downloads": "0.92M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3392 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7JmLxGkh/budgetbuddy.webp",
+    "title": "BudgetBuddy:personal finances",
+    "companyName": "FinApps",
+    "id": 7,
+    "description": "Take control of your personal finances with BudgetBuddy — a feature-rich budgeting app that tracks spending, monitors savings, and helps you set realistic financial goals. With visual breakdowns of expenses, customizable budget categories, and timely alerts, BudgetBuddy empowers you to make smarter financial decisions without the stress.",
+    "size": 55,
+    "reviews": 17943,
+    "ratingAvg": 4.1,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 790 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9353 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/w2zgyYK/sleepcycle.webp",
+    "title": "SleepCycle+:better sleep",
+    "companyName": "ZenWare",
+    "id": 8,
+    "description": "Achieve better sleep with SleepCycle+, your personal sleep coach. It features a smart alarm that wakes you during your lightest sleep phase, calming soundscapes for relaxation, and detailed sleep analytics. Whether you're battling insomnia or just want to improve sleep quality, SleepCycle+ helps you wake up feeling refreshed and energized.",
+    "size": 92,
+    "reviews": 11230,
+    "ratingAvg": 4.7,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 312 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 6218 }
+    ]
+  }
+]

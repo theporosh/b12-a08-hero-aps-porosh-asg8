@@ -1,0 +1,361 @@
+[
+    {
+    "image": "https://i.ibb.co.com/hR0zt4P6/tm.webp",
+    "title": "TaskMaster:managing tasks",
+    "companyName": "Productive Inc.",
+    "id": 1,
+    "description": "TaskMaster is your ultimate digital assistant for managing tasks and boosting daily productivity. Designed with simplicity and power in mind, it helps users create to-do lists, set priorities, assign deadlines, and track progress effortlessly. Whether you're a professional juggling multiple projects or a student organizing study plans, TaskMaster adapts to your workflow with calendar integrations, reminders, and smart categorization.",
+    "size": 45,
+    "reviews": 15234,
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 345 },
+      { "name": "2 star", "count": 621 },
+      { "name": "3 star", "count": 1234 },
+      { "name": "4 star", "count": 4567 },
+      { "name": "5 star", "count": 8467 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Lz38gTz9/ftpro.webp",
+    "title": "FitTrack Pro:fitness tracking",
+    "companyName": "HealthCore Ltd.",
+    "id": 2,
+    "description": "FitTrack Pro offers a complete fitness tracking solution tailored to your personal health goals. Create workout routines, monitor your daily activity, log meals, and analyze performance trends over time. With AI-driven recommendations and real-time insights, FitTrack Pro acts as your virtual trainer, helping you stay on track whether you’re aiming for weight loss, muscle gain, or general wellness.",
+    "size": 80,
+    "reviews": 9843,
+    "ratingAvg": 4.2,
+    "downloads": "0.87M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 432 },
+      { "name": "3 star", "count": 1345 },
+      { "name": "4 star", "count": 3421 },
+      { "name": "5 star", "count": 4435 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vv3Px7L3/photogenie.webp",
+    "title": "Photo Genie:Transform photos",
+    "companyName": "SnapSoft",
+    "id": 3,
+    "description": "Transform ordinary photos into stunning masterpieces with Photo Genie — an intuitive, AI-powered editing app built for beginners and pros alike. Apply filters, remove unwanted objects, enhance lighting, and use auto-correction tools that understand your artistic vision. Whether you're creating content for social media or preserving memories, Photo Genie makes professional photo editing accessible to everyone.",
+    "size": 120,
+    "reviews": 25421,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 198 },
+      { "name": "2 star", "count": 402 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C3VxCDPt/studypal.webp",
+    "title": "StudyPal:smart study",
+    "companyName": "EduSpark",
+    "id": 4,
+    "description": "StudyPal is a smart study companion designed for students and lifelong learners. Organize class notes, schedule study sessions, and create flashcards for better memory retention. The app supports collaborative learning through shared folders and integrates with cloud services to ensure your materials are always accessible. Ideal for exam prep, group studies, or solo learning journeys.",
+    "size": 66,
+    "reviews": 6432,
+    "ratingAvg": 4.3,
+    "downloads": "0.54M",
+    "ratings": [
+      { "name": "1 star", "count": 178 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 960 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2984 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twbct7KT/travalease.webp",
+    "title": "TravelEase:travel planning",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "Simplify your travel planning with TravelEase — your all-in-one trip companion. Discover offbeat destinations, book flights and hotels, create personalized itineraries, and get real-time travel alerts. TravelEase helps travelers of all kinds — backpackers, luxury vacationers, or digital nomads — explore the world with confidence, convenience, and joy.",
+    "size": 150,
+    "reviews": 15300,
+    "ratingAvg": 4.6,
+    "downloads": "1.89M",
+    "ratings": [
+      { "name": "1 star", "count": 301 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 9079 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1kCMDsT/notenest.webp",
+    "title": "NoteNest:cloud powered",
+    "companyName": "CloudDesk",
+    "id": 6,
+    "description": "NoteNest is a cloud-powered note-taking app that keeps your thoughts, ideas, and lists synced across all devices. With a clean and distraction-free interface, it supports voice notes, rich text formatting, and folder organization. From quick memos to detailed journals, NoteNest ensures your notes are always secure, organized, and instantly available when you need them.",
+    "size": 30,
+    "reviews": 8032,
+    "ratingAvg": 4.4,
+    "downloads": "0.92M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3392 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7JmLxGkh/budgetbuddy.webp",
+    "title": "BudgetBuddy:personal finances",
+    "companyName": "FinApps",
+    "id": 7,
+    "description": "Take control of your personal finances with BudgetBuddy — a feature-rich budgeting app that tracks spending, monitors savings, and helps you set realistic financial goals. With visual breakdowns of expenses, customizable budget categories, and timely alerts, BudgetBuddy empowers you to make smarter financial decisions without the stress.",
+    "size": 55,
+    "reviews": 17943,
+    "ratingAvg": 4.1,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 790 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9353 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/w2zgyYK/sleepcycle.webp",
+    "title": "SleepCycle+:better sleep",
+    "companyName": "ZenWare",
+    "id": 8,
+    "description": "Achieve better sleep with SleepCycle+, your personal sleep coach. It features a smart alarm that wakes you during your lightest sleep phase, calming soundscapes for relaxation, and detailed sleep analytics. Whether you're battling insomnia or just want to improve sleep quality, SleepCycle+ helps you wake up feeling refreshed and energized.",
+    "size": 92,
+    "reviews": 11230,
+    "ratingAvg": 4.7,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 312 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 6218 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b54tFW0n/focustimer.webp",
+    "title": "Focus Timer:focus and productivity",
+    "companyName": "ZenLab",
+    "id": 9,
+    "description": "Boost your focus and productivity using Focus Timer — a minimalist timer based on the proven Pomodoro technique. Work in short sprints with built-in breaks to enhance mental clarity, reduce burnout, and maintain motivation. Perfect for students, remote workers, and anyone battling procrastination.",
+    "size": 25,
+    "reviews": 5421,
+    "ratingAvg": 4.6,
+    "downloads": "0.8M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 1540 },
+      { "name": "5 star", "count": 2891 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GQY1nXkH/quicknotes.webp",
+    "title": "Quick Notes:note taking app",
+    "companyName": "SpeedySoft",
+    "id": 10,
+    "description": "Quick Notes is a lightweight and lightning-fast note-taking app for jotting down ideas on the fly. Whether you're in a meeting, on a call, or capturing spontaneous inspiration, its simple interface ensures zero friction. Color coding, tagging, and quick search make organization effortless.",
+    "size": 18,
+    "reviews": 3102,
+    "ratingAvg": 4.3,
+    "downloads": "0.56M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 872 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wVq0ycF/weathergo.webp",
+    "title": "WeatherGo:weather condition app",
+    "companyName": "ClimateTech",
+    "id": 11,
+    "description": "Stay prepared for any weather condition with WeatherGo — a sleek, real-time weather app offering hyper-local forecasts, severe weather alerts, and radar visualizations. Whether you're planning a trip, heading outdoors, or just commuting to work, WeatherGo ensures you're never caught off-guard.",
+    "size": 33,
+    "reviews": 8700,
+    "ratingAvg": 4.7,
+    "downloads": "1.45M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 2670 },
+      { "name": "5 star", "count": 4550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6R6FPkfN/mybudget.webp",
+    "title": "My Budget:money management app",
+    "companyName": "FinStack",
+    "id": 12,
+    "description": "Visualize your financial life with My Budget, an intuitive money management app. Track income and expenses, categorize spending, and monitor savings goals with beautiful graphs and reports. It’s a great tool for users at any stage of their financial journey, from students to working professionals.",
+    "size": 40,
+    "reviews": 6702,
+    "ratingAvg": 4.2,
+    "downloads": "0.97M",
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2592 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NnYCc92q/calmsleep.webp",
+    "title": "CalmSpace:wellness app featuring",
+    "companyName": "MindWell",
+    "id": 13,
+    "description": "Find peace in your day with CalmSpace — a wellness app featuring guided meditations, breathing exercises, and stress-relief tools. Designed by mindfulness experts, CalmSpace helps reduce anxiety, improve focus, and promote emotional balance in as little as 10 minutes a day.",
+    "size": 90,
+    "reviews": 15230,
+    "ratingAvg": 4.9,
+    "downloads": "2.15M",
+    "ratings": [
+      { "name": "1 star", "count": 89 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9711 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbnFVrRp/learnlang.webp",
+    "title": "LearnLang:language learning app",
+    "companyName": "EduRise",
+    "id": 14,
+    "description": "Master new languages at your pace with LearnLang — a fun and engaging language-learning app. Through bite-sized lessons, daily challenges, and interactive quizzes, you’ll build vocabulary, grammar, and conversational skills. Great for travelers, students, and curious minds alike.",
+    "size": 78,
+    "reviews": 20321,
+    "ratingAvg": 4.8,
+    "downloads": "3.1M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 1230 },
+      { "name": "4 star", "count": 6120 },
+      { "name": "5 star", "count": 13601 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8ghVT2GT/scanlt.webp",
+    "title": "ScanIt:powerful scanning tool",
+    "companyName": "ToolStack",
+    "id": 15,
+    "description": "Turn your phone into a powerful scanning tool with ScanIt. Quickly scan documents, QR codes, and barcodes with high accuracy. Whether you're digitizing paperwork, scanning restaurant menus, or accessing event passes, ScanIt delivers clean scans and instant results.",
+    "size": 22,
+    "reviews": 9431,
+    "ratingAvg": 4.5,
+    "downloads": "1.22M",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3320 },
+      { "name": "5 star", "count": 4411 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMMqhbjw/habithero.webp",
+    "title": "Habit Hero:Build better habits",
+    "companyName": "LifeTrack",
+    "id": 16,
+    "description": "Build better habits and break bad ones with Habit Hero. Set daily goals, track your progress, and stay motivated with visual streaks and reminders. From drinking more water to developing new skills, Habit Hero turns personal growth into a game worth playing.",
+    "size": 49,
+    "reviews": 11490,
+    "ratingAvg": 4.6,
+    "downloads": "1.49M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3990 },
+      { "name": "5 star", "count": 5640 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/X1gScY8/codemeet.webp",
+    "title": "CodeMate:go with CodeMate",
+    "companyName": "DevTools",
+    "id": 17,
+    "description": "Take your coding on the go with CodeMate — a full-featured mobile IDE that supports multiple programming languages. Write, compile, and debug code right from your phone, whether you're a student practicing syntax or a developer fixing code on the fly.",
+    "size": 105,
+    "reviews": 9021,
+    "ratingAvg": 4.0,
+    "downloads": "0.67M",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 790 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2600 },
+    ]
+},
+  {
+    "image": "https://i.ibb.co.com/DDLy8xvB/flowmusic.webp",
+    "title": "MusicFlow:music streaming app",
+    "companyName": "TuneCore",
+    "id": 18,
+    "description": "Enjoy a seamless music streaming experience with MusicFlow. Browse millions of tracks, follow your favorite artists, and curate custom playlists. Its smart recommendations and offline playback mode ensure your music always matches your mood — anytime, anywhere.",
+    "size": 95,
+    "reviews": 28745,
+    "ratingAvg": 4.4,
+    "downloads": "3.7M",
+    "ratings": [
+      { "name": "1 star", "count": 642 },
+      { "name": "2 star", "count": 920 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 8120 },
+      { "name": "5 star", "count": 15763 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XZbF1d2v/foodiesan.webp",
+    "title": "FoodieSnap:passionate foodie community",
+    "companyName": "BiteByte",
+    "id": 19,
+    "description": "FoodieSnap lets food lovers capture, enhance, and share their dining adventures. Discover trending restaurants, share recipes, and interact with a passionate foodie community. With in-app photo filters and tags, your food photography will always look delicious.",
+    "size": 58,
+    "reviews": 6542,
+    "ratingAvg": 4.5,
+    "downloads": "0.86M",
+    "ratings": [
+      { "name": "1 star", "count": 134 },
+      { "name": "2 star", "count": 231 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 2120 },
+      { "name": "5 star", "count": 3187 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BKdgL6SJ/securevault.webp",
+    "title": "SecureVault:private data app",
+    "companyName": "Lockify",
+    "id": 20,
+    "description": "Keep your private data truly private with SecureVault — a robust password and document manager featuring military-grade encryption. Store passwords, confidential files, IDs, and more in one secure location, with biometric access and cloud sync for convenience.",
+    "size": 63,
+    "reviews": 12342,
+    "ratingAvg": 4.8,
+    "downloads": "1.47M",
+    "ratings": [
+      { "name": "1 star", "count": 98 },
+      { "name": "2 star", "count": 185 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 8319 }
+    ]
+  }
+]
