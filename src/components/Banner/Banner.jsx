@@ -2,6 +2,7 @@ import React from 'react';
 import playImg from '../../assets/playstore.png'
 import appImg from '../../assets/appstore.png'
 import StatesSection from '../StatesSection/StatesSection';
+import { Link } from 'react-router';
 
 
 const Banner = () => {
@@ -12,13 +13,13 @@ const Banner = () => {
 
             <div className="mb-10">
 
-                <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-5 text-xl">
+                <Link to="https://play.google.com/store/games?hl=en" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-5 text-xl">
                     <img className="w-5 h-5" src={playImg} alt="" />
-                    Google Play</button>
+                    Google Play</Link>
 
-                <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-xl">
+                <Link to="https://www.apple.com/app-store/" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl text-xl">
                     <img className="w-5 h-5" src={appImg} alt="" />
-                    App Store</button>
+                    App Store</Link>
             </div>
 
            

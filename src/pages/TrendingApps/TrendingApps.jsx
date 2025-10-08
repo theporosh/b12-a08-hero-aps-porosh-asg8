@@ -1,5 +1,6 @@
 import React from 'react';
 import TrendingApp from '../TrendingApp/TrendingApp';
+import { Link } from 'react-router';
 
 const TrendingApps = ({data}) => {
     return (
@@ -13,8 +14,8 @@ const TrendingApps = ({data}) => {
                 data.map(singleApp => <TrendingApp key={singleApp.id} singleApp={singleApp}></TrendingApp>)
             }
             </div>
-            
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-md">Show All</button>
+
+            <Link to="/apps" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-md">Show All</Link>
         </div>
     );
 };

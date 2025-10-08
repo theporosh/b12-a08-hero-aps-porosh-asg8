@@ -199,7 +199,7 @@
   },
   {
     "image": "https://i.ibb.co.com/6R6FPkfN/mybudget.webp",
-    "title": "My Budget:money management app",
+    "title": "My Budget:money management",
     "companyName": "FinStack",
     "id": 12,
     "description": "Visualize your financial life with My Budget, an intuitive money management app. Track income and expenses, categorize spending, and monitor savings goals with beautiful graphs and reports. It’s a great tool for users at any stage of their financial journey, from students to working professionals.",
@@ -301,7 +301,7 @@
       { "name": "1 star", "count": 420 },
       { "name": "2 star", "count": 790 },
       { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 2600 },
+      { "name": "4 star", "count": 2600 }
     ]
 },
   {
@@ -324,7 +324,7 @@
   },
   {
     "image": "https://i.ibb.co.com/XZbF1d2v/foodiesan.webp",
-    "title": "FoodieSnap:passionate foodie community",
+    "title": "FoodieSnap:foodie community",
     "companyName": "BiteByte",
     "id": 19,
     "description": "FoodieSnap lets food lovers capture, enhance, and share their dining adventures. Discover trending restaurants, share recipes, and interact with a passionate foodie community. With in-app photo filters and tags, your food photography will always look delicious.",
