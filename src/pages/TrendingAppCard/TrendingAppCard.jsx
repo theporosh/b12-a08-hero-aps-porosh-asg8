@@ -1,15 +1,17 @@
 import React from 'react';
 import dwlImg from '../../assets/icon-downloads.png'
 import starImg from '../../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
-const TrendingApp = ({ singleApp }) => {
-    console.log(singleApp);
-    const { image, title, ratingAvg, downloads } = singleApp;
+const TrendingAppCard = ({ singleApp }) => {
+    // console.log(singleApp);
+    const { image, title, ratingAvg, downloads, id } = singleApp;
     return (
 
         <div>
             
-            {/* <!-- Card Start --> */}
+            {/* Card Start  */}
+           <Link to={`/appDetails/${id}`}>
             <div className="bg-white p-5 rounded-xl shadow-md flex flex-col items-center">
                 <img className="w-full h-56 object-cover bg-gray-300 rounded-lg mb-4" src={image} alt="" />
                 <h2 className="text-sm font-semibold text-center mb-3 text-[#001931]">{title}</h2>
@@ -30,10 +32,11 @@ const TrendingApp = ({ singleApp }) => {
                 </div>
 
             </div>
-            {/* <!-- Card End --> */}
+           </Link>
+            {/* Card End  */}
 
         </div>
     );
 };
 
-export default TrendingApp;
+export default TrendingAppCard;

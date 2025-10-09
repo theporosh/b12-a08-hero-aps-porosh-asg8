@@ -9,7 +9,7 @@ const SearchAppCard = ({ singleApp }) => {
     return (
         <div>
 
-            {/* <!-- Card Start --> */}
+         {/* Card Start  */}
             <div className="bg-white p-5 rounded-xl shadow-md flex flex-col items-center">
                 <img className="w-full h-56 object-cover bg-gray-300 rounded-lg mb-4" src={image} alt="" />
                 <h2 className="text-sm font-semibold text-center mb-3 text-[#001931]">{title}</h2>
@@ -30,7 +30,7 @@ const SearchAppCard = ({ singleApp }) => {
                 </div>
 
             </div>
-            {/* <!-- Card End --> */}
+            {/* Card End  */}
 
         </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
-import TrendingApp from '../TrendingApp/TrendingApp';
+import TrendingAppCard from '../TrendingAppCard/TrendingAppCard';
 import { Link } from 'react-router';
+
 
 const TrendingApps = ({data}) => {
     return (
@@ -11,7 +12,7 @@ const TrendingApps = ({data}) => {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-10">
             {
-                data.map(singleApp => <TrendingApp key={singleApp.id} singleApp={singleApp}></TrendingApp>)
+                data.map(singleApp => <TrendingAppCard key={singleApp.id} singleApp={singleApp}></TrendingAppCard>)
             }
             </div>
 
