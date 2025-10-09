@@ -1,16 +1,15 @@
 import React from 'react';
-import errorPage from '../../assets/error-404.png'
 import { Link } from 'react-router';
+import errorApp from '../../assets/App-Error.png'
 
-const ErrorPage = () => {
+const ErrorApp = () => {
     return (
-
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
 
 
             <div className="flex justify-center mb-6">
                 <img
-                    src={errorPage}
+                    src={errorApp}
                     alt=""
                     className="w-60 md:w-80 lg:w-96 object-contain"
                 />
@@ -18,10 +17,10 @@ const ErrorPage = () => {
 
 
             <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-2">
-                Oops, page not found!
+                OPPS!! APP NOT FOUND
             </h1>
             <p className="text-gray-500 text-sm md:text-base mb-6">
-                The page you are looking for is not available.
+                The App you are requesting is not found on our system.  please try another apps
             </p>
 
 
@@ -32,8 +31,7 @@ const ErrorPage = () => {
                 Go Back!
             </Link>
         </div>
-
     );
 };
 
-export default ErrorPage;
+export default ErrorApp;

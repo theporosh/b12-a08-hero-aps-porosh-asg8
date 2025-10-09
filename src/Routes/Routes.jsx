@@ -4,6 +4,7 @@ import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import AllApps from '../pages/AllApps/AllApps';
+import ErrorApp from '../pages/ErrorApp/ErrorApp';
 
 
 export const router = createBrowserRouter([
