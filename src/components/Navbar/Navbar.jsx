@@ -12,17 +12,28 @@ const Navbar = () => {
       isActive
         ? "text-blue-500 font-semibold border-b-2 border-blue-500 m-2"
         : "text-gray-600 hover:text-blue-400 m-2"
-    }  to="/">  <span className="flex items-center gap-2"><IoHomeOutline /> Home</span> </NavLink>
+    }  to="/">  
+    <span className="flex items-center gap-2"><IoHomeOutline /> Home</span> 
+    </NavLink>
 
        <NavLink className={({ isActive }) =>
       isActive
         ? "text-blue-500 font-semibold border-b-2 border-blue-500 m-2"
         : "text-gray-600 hover:text-blue-400 m-2"
-    } to="/apps">  <span className="flex items-center gap-2"><IoLogoAppleAppstore /> Apps </span> </NavLink>
+    } to="/apps">  
+    <span className="flex items-center gap-2"><IoLogoAppleAppstore /> Apps </span> 
+    </NavLink>
 
-
+        <NavLink className={({ isActive }) =>
+      isActive
+        ? "text-blue-500 font-semibold border-b-2 border-blue-500 m-2"
+        : "text-gray-600 hover:text-blue-400 m-2"
+    } to="/install">  
         <span className="flex items-center gap-2"><MdOutlineInstallDesktop /> Installation</span>
+        </NavLink>
+
     </>
+
 
     return (
         <div className="navbar bg-base-100 shadow-md">

@@ -1,17 +1,11 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
+import {BarChart,Bar,XAxis,YAxis,Tooltip,ResponsiveContainer,} from "recharts";
 import dwlImg from '../../assets/icon-downloads.png';
 import starImg from '../../assets/icon-ratings.png';
 import revImg from '../../assets/icon-review.png';
 import { toast } from "react-toastify";
+import { addToStoreDB } from '../../utility/addToDB';
 
 
 const AppDetailsPage = () => {
@@ -22,7 +16,7 @@ const AppDetailsPage = () => {
     const data = useLoaderData();
     // console.log(data);
     const singleApp = data.find(app => app.id === appId)
-    console.log(singleApp);
+    // console.log(singleApp);
     // console.log(typeof id, data)
 
     const {image, title, downloads, ratingAvg, reviews, ratings, description} = singleApp;
@@ -30,10 +24,20 @@ const AppDetailsPage = () => {
     // Installation state
   const [isInstalled, setIsInstalled] = useState(false);
 
+  const handleMarkInstalledApp = id => {
+        // store with id
+        // where to store
+        // array of collection
+        // if app already exist then show a alert
+        // if book not exist then push in the collection or array
+
+        addToStoreDB(id)
+  }
+
   const handleInstall = () => {
     setIsInstalled(true);
     toast.success(`Yahoo !! ${title} Installed Successfully `);
-
+     
   };
 
     return (
@@ -87,7 +91,7 @@ const AppDetailsPage = () => {
 
            {/* Install Button */}
           <button 
-          onClick={handleInstall} 
+          onClick={() => {handleInstall(); handleMarkInstalledApp(id); } } 
           disabled={isInstalled}
           className="mt-5 bg-[#00d390] text-white px-6 py-2 rounded-md hover:bg-green-700 transition-all text-sm md:text-base">
 
