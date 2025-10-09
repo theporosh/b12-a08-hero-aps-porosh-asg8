@@ -5,7 +5,8 @@ import MyInstallationCard from '../MyInstallationCard/MyInstallationCard';
 
 const MyInstallation = () => {
 
-    const [checkList, setCheckList] = useState([])
+    const [checkList, setCheckList] = useState([]);
+    const [sort, setSort] = useState("");
     const data = useLoaderData();
     // console.log(data);
 
@@ -19,6 +20,25 @@ const MyInstallation = () => {
         setCheckList(myAppList)
 
     }, [])
+
+    const handleSort = (type) => {
+        setSort(type)
+        if (type === "small") {
+
+             const sortedBySmall = [...checkList].sort((a, b) =>
+                a.downloads.split("M").join("") -
+                b.downloads.split("M").join(""));
+                setCheckList(sortedBySmall)
+        }
+        if (type === "large") {
+
+            const sortedBySmall = [...checkList].sort((a, b) =>
+                b.downloads.split("M").join("") -
+                a.downloads.split("M").join(""));
+                setCheckList(sortedBySmall)
+
+        }
+    }
 
     return (
         <div>
@@ -43,19 +63,15 @@ const MyInstallation = () => {
                         <span>{checkList.length}</span> Apps Found
                     </p>
 
-                    {/* Sort Dropdown (from DaisyUI) */}
-                    <div className="dropdown dropdown-end">
-                        <div tabIndex={0} role="button" className="btn bg-white text-[#627382] border">
-                            Sort By Size ⬇️
-                        </div>
-                        <ul
-                            tabIndex={0}
-                            className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
-                        >
-                            <li><a>Small to Large</a></li>
-                            <li><a>Large to Small</a></li>
-                        </ul>
-                    </div>
+
+
+                    <select defaultValue="Pick a font" className="select select-ghost text-[#627382]">
+                        <option disabled={true}>Sort By Size</option>
+                        <option>Sort By Size</option>
+                        <option onClick={() => handleSort("small")}>Low-High</option>
+                        <option onClick={() => handleSort("large")}>High-Low</option>
+                    </select>
+
                 </div>
 
                 {/*  App Cards  */}
