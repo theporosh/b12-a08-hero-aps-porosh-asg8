@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
+    // errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
@@ -29,12 +29,17 @@ export const router = createBrowserRouter([
       {
         path: '/appDetails/:id',
         loader: () => fetch("/allApps.json"),
+        errorElement: <ErrorApp></ErrorApp>,
         Component: AppDetailsPage
       },
       {
         path: '/install',
         loader: () => fetch("/allApps.json"),
         Component: MyInstallation
+      },
+      {
+        path: '*',
+        element: <ErrorPage></ErrorPage>
       }
     ]
   },
