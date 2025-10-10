@@ -98,11 +98,6 @@ const MyInstallation = () => {
                         </MyInstallationCard>)
                     }
 
-
-                    <p className="text-center text-gray-500 text-lg font-medium py-10">
-                        No Installed Apps Found
-                    </p>
-
                 </div>
             </div>
 

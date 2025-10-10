@@ -67,7 +67,7 @@ const AllApps = () => {
                      
                    <div className="text-center">
                      <p className="text-center text-gray-500 text-lg md:text-5xl font-medium py-10">
-                        No Apps Found
+                        No App Found
                     </p>
                  <a href="/apps" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white rounded-md">Show All Apps</a>
                 </div>
