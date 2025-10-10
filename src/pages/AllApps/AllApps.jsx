@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { useLoaderData } from 'react-router';
 import AllAppCard from '../AllAppCard/AllAppCard';
@@ -11,9 +11,35 @@ const AllApps = () => {
 
     const [searchTerm, setSearchTerm] = useState("");
 
-    const filteredApps = data.filter(app => app.title.toLowerCase().includes(searchTerm.toLowerCase())
-);
+    const [loading, setLoading] = useState(false);
+
+    const [filteredApps, setFilteredApps] = useState(data);
+
+//     const filteredApps = data.filter(app => app.title.toLowerCase().includes(searchTerm.toLowerCase())
+// );
+
     const showSearchResults = searchTerm.trim().length > 0;
+
+    useEffect(() => {
+    if (searchTerm.trim() === "") {
+      setFilteredApps(data);
+      setLoading(false);
+      return;
+    }
+
+    setLoading(true);
+
+    const timeout = setTimeout(() => {
+      const filtered = data.filter((app) =>
+        app.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredApps(filtered);
+      setLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timeout);
+  }, [searchTerm, data]);
+
 
     return (
         <div>
@@ -51,10 +77,18 @@ const AllApps = () => {
 
            
             
-            {/* filter and display No Aps found using conditionally render */}
+            {/* filter and display render */}
              <div className="max-w-6xl mx-auto mb-10">
 
-             {showSearchResults ? ( filteredApps.length > 0 ? (
+                {loading ? (
+
+            //   loading spinner
+          <div className="flex justify-center py-10">
+            <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          </div>
+
+
+          )  :   showSearchResults ? ( filteredApps.length > 0 ? (
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {filteredApps.map( singleApp => 
@@ -76,7 +110,7 @@ const AllApps = () => {
                 ) 
 
              ) : (
-                // Otherwise show all apps
+                //   show all apps
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-10">
                 {
                     data.map(singleApp => <AllAppCard key={singleApp.id} singleApp={singleApp}></AllAppCard>)
