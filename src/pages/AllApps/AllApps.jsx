@@ -7,7 +7,7 @@ import SearchAppCard from '../SearchAppCard/SearchAppCard';
 
 const AllApps = () => {
     const data = useLoaderData();
-    console.log(data);
+    // console.log(data);
 
     const [searchTerm, setSearchTerm] = useState("");
 

@@ -2,9 +2,9 @@ import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 
-const MyInstallationCard = ({ singleApp }) => {
+const MyInstallationCard = ({ singleApp, handleUninstall }) => {
 
-    const {image, title, downloads, ratingAvg} = singleApp;
+    const {image, title, downloads, ratingAvg, id} = singleApp;
  
     return (
         <div>
@@ -41,7 +41,9 @@ const MyInstallationCard = ({ singleApp }) => {
                 </div>
 
                 {/* Uninstall Button */}
-                <button className="mt-3 sm:mt-0 btn bg-[#00d390] text-white btn-sm">
+                <button 
+                onClick={() => handleUninstall(id, title)}
+                className="mt-3 sm:mt-0 btn bg-[#00d390] text-white btn-sm">
                     Uninstall
                 </button>
             </div>

@@ -27,4 +27,18 @@ const addToStoreDB = (id) => {
     }
 }
 
-export { addToStoreDB, getStoredApp };
+
+const removeFromStoreDB = (id) => {
+  const storedAppData = getStoredApp();
+//   console.log(storedAppData)
+  const convertedStoredApps = storedAppData.map(id => parseInt(id))
+    // console.log(id)
+    // console.log(convertedStoredApps)
+  const updated = convertedStoredApps.filter(appId => appId !== id);
+//   console.log(updated)
+  const newUpdated = JSON.stringify(updated);
+//   console.log(newUpdated)
+  localStorage.setItem("checkList", newUpdated);
+};
+
+export { addToStoreDB, getStoredApp, removeFromStoreDB };

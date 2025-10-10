@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getStoredApp } from '../../utility/addToDB';
+import { getStoredApp, removeFromStoreDB } from '../../utility/addToDB';
 import MyInstallationCard from '../MyInstallationCard/MyInstallationCard';
+import { toast } from 'react-toastify';
 
 const MyInstallation = () => {
 
@@ -39,6 +40,18 @@ const MyInstallation = () => {
 
         }
     }
+
+    const handleUninstall = (id, title) => {
+        // console.log(checkList)
+        // console.log(id)
+    const updatedList = checkList.filter(app => app.id !== id);
+    // console.log(updatedList);
+    setCheckList(updatedList);
+    removeFromStoreDB(id);
+        
+    toast.success(`Your App !! ${title} uninstalled successfully! `);
+    
+  };
 
     return (
         <div>
@@ -78,7 +91,11 @@ const MyInstallation = () => {
                 <div className="space-y-4">
 
                     {
-                        checkList.map(a => <MyInstallationCard key={a.id} singleApp={a} ></MyInstallationCard>)
+                        checkList.map(a => <MyInstallationCard 
+                        
+                        key={a.id} singleApp={a} handleUninstall={handleUninstall} >
+
+                        </MyInstallationCard>)
                     }
 
 
